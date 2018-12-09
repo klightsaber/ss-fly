@@ -67,7 +67,8 @@ BBR支持4.9以上的，如果你的版本高于这个则会直接开启BBR加�
 ```
 ss-fly/ss-fly.sh -bbr
 ```
-![图片](https://github.com/klightsaber/ss-fly/blob/master/ss-fly-bbr-succes-new.png)
+![图片](https://github.com/klightsaber/ss-fly/blob/master/ss-fly-bbr-success-new.png)
+
 如图中红框所示，如果第一步有内核更新，则会自动重启，你需要重新用Xshell连接你的VPS，连接后再执行一次命令则会开启BBR加速~
 
 ## 相关链接
