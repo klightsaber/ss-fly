@@ -28,7 +28,8 @@ ss-fly/ss-fly.sh -i password 1024
 ```
 ss-fly/ss-fly.sh -ssr
 ```
-执行完上述的脚本代码后，会进入到输入参数的界面，包括服务器端口，密码，加密方式，协议，混淆。可以直接输入回车选择默认值，也可以输入相应的值选择对应的选项
+执行完上述的脚本代码后，会进入到输入参数的界面，包括服务器端口，密码，加密方式，协议，混淆。可以直接输入回车选择默认值，也可以输入相应的值选择对应的选项:
+![选项](https://github.com/klightsaber/ss-fly/blob/master/ss-fly-bbr-options.png)
 全部选择结束后，会看到如下界面，就说明搭建ssr成功了：
 ```
 Congratulations, ShadowsocksR server install completed!
