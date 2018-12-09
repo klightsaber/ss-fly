@@ -57,6 +57,15 @@ Enjoy it!
 ```
 ./shadowsocksR.sh uninstall
 ```
+## 一键开启BBR加速
+BBR是Google开源的一套内核加速算法，可以让你搭建的shadowsocks速度上一个台阶。
+
+BBR支持4.9以上的，如果你的版本高于这个则会直接开启BBR加速，如果低于这个版本则会自动下载4.10的内核并开启，之后需要重启生效，执行如下脚本命令：
+```
+ss-fly/ss-fly.sh -bbr
+```
+如图中红框所示，如果第一步有内核更新，则会自动重启，你需要重新用Xshell连接你的VPS，连接后再执行一次命令则会开启BBR加速~
+
 ## 相关链接
 windows SSR客户端https://github.com/shadowsocks/shadowsocks-windows/releases
 
