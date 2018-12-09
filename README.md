@@ -29,7 +29,8 @@ ss-fly/ss-fly.sh -i password 1024
 ss-fly/ss-fly.sh -ssr
 ```
 执行完上述的脚本代码后，会进入到输入参数的界面，包括服务器端口，密码，加密方式，协议，混淆。可以直接输入回车选择默认值，也可以输入相应的值选择对应的选项:
-![选项](https://github.com/klightsaber/ss-fly/blob/master/ss-fly-bbr-options.png)
+![选项图片](https://github.com/klightsaber/ss-fly/blob/master/ss-fly-bbr-options.png)
+
 全部选择结束后，会看到如下界面，就说明搭建ssr成功了：
 ```
 Congratulations, ShadowsocksR server install completed!
@@ -44,7 +45,8 @@ Welcome to visit:https://shadowsocks.be/9.html
 Enjoy it!
 ```
 ## 相关操作ssr命令
-```启动：/etc/init.d/shadowsocks start
+```
+启动：/etc/init.d/shadowsocks start
 停止：/etc/init.d/shadowsocks stop
 重启：/etc/init.d/shadowsocks restart
 状态：/etc/init.d/shadowsocks status
@@ -65,6 +67,7 @@ BBR支持4.9以上的，如果你的版本高于这个则会直接开启BBR加�
 ```
 ss-fly/ss-fly.sh -bbr
 ```
+![图片](https://github.com/klightsaber/ss-fly/blob/master/ss-fly-bbr-succes-new.png)
 如图中红框所示，如果第一步有内核更新，则会自动重启，你需要重新用Xshell连接你的VPS，连接后再执行一次命令则会开启BBR加速~
 
 ## 相关链接
