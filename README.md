@@ -24,7 +24,7 @@ apt-get -y install git && git clone https://github.com/klightsaber/ss-fly
 ss-fly/ss-fly.sh -i password 1024
 ```
 参数说明: password替换成自己的密码，1024为ss开放的端口号
-## 一键搭建shadowsocksR（SS和SSR二选一）
+## 一键搭建shadowsocksR（SS和SSR二选一推荐）
 ```
 ss-fly/ss-fly.sh -ssr
 ```
